@@ -1,6 +1,6 @@
 {
   "name": "@frederiknordahl/now",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "An updated Frontity builder for vercel hosting - forked from frontity/now-builder",
   "repository": {
     "type": "git",
