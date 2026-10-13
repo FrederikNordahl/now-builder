@@ -8,7 +8,6 @@ import {
   getNodeVersion,
   getSpawnOptions,
   createLambda,
-  Route,
   BuildOptions,
   Config,
   FileFsRef,
@@ -25,6 +24,12 @@ interface PackageJson {
   devDependencies?: {
     [key: string]: string;
   };
+}
+
+interface Route {
+  src: string;
+  dest?: string;
+  headers?: { [key: string]: string };
 }
 
 interface Output {
