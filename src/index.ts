@@ -174,7 +174,7 @@ export async function build({
     };
 
     const lambda = await createLambda({
-      runtime: "nodejs20.x",
+      runtime: "nodejs22.x",
       handler: "now__launcher.launcher",
       files: {
         ...launcherFiles,
